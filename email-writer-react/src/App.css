@@ -1,0 +1,8 @@
+/* Page background: layered gradient + subtle grain feel without extra assets */
+.app-shell {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(255, 255, 255, 0.35), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(139, 92, 246, 0.25), transparent 50%),
+    linear-gradient(155deg, #312e81 0%, #5b21b6 42%, #6d28d9 100%);
+  background-attachment: fixed;
+}
